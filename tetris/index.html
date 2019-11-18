@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tetris</title>
+        <link type="text/css" rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">tetris</h1>
+            <div class="game-alert">
+                <p class="score-alert">SCORE:</p>
+                <button class="close-button button">CLOSE</button>
+            </div>
+            <div class="game-container">
+                <canvas class="canvas"></canvas>
+                <div class="content-left">
+                    <p class="score output">SCORE: 0</p>
+                    <p class="level output">LEVEL: 1</p>
+                    <canvas class="next-piece"></canvas>
+                    <button class="pause-button button">PAUSE</button>
+                    <button class="start-button button">START</button>
+                    <button class="mute-button button">MUTE</button>
+                </div>
+            </div>
+        </div>
+        <script src="tetrominos.js"></script>
+        <script src="Tetromino.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
